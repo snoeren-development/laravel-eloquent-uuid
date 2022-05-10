@@ -1,0 +1,32 @@
+{
+    "name": "snoeren-development/laravel-eloquent-uuid",
+    "description": "Small trait for Eloquent models to use UUID's instead of incrementing integers.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "uuid",
+        "trait",
+        "eloquent",
+        "model",
+        "snoeren",
+        "development"
+    ],
+    "homepage": "https://github.com/snoeren-development/laravel-eloquent-uuid",
+    "autoload": {
+        "psr-4": {
+            "SnoerenDevelopment\\LaravelEloquentUuid\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michael Snoeren",
+            "email": "michael@snoerendevelopment.nl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0|^9.0"
+    }
+}
